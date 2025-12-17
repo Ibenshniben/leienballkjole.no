@@ -17,65 +17,35 @@ interface Product {
 const products: Product[] = [
   {
     id: 1,
-    name: "Royal Blue Silk Gown",
-    price: 1500,
+    name: "Rosa ballkjole",
+    price: 400,
     size: "M",
-    image: "https://images.unsplash.com/photo-1595777457583-95e059d581b8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    color: "Blå",
+    image: "/kjole1.jpg",
+    color: "Rosa",
     status: 'available',
-    description: "En fantastisk silkekjole som får deg til å føle deg som en dronning."
+    description: "Nydelig rosa ballkjole som passer perfekt til enhver festlig anledning."
   },
   {
     id: 2,
-    name: "Emerald Green Velvet",
-    price: 1800,
-    size: "S",
-    image: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    color: "Grønn",
+    name: "Kommer snart",
+    price: 0,
+    size: "-",
+    image: "https://images.unsplash.com/photo-1515347619252-60a6bf4fffce?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    color: "-",
     status: 'busy',
-    availableDate: 'Ledig om 5 dager',
-    description: "Elegant fløyelskjole perfekt for juleball eller galla."
+    availableDate: 'Kommer snart',
+    description: "Flere kjoler legges til fortløpende."
   },
   {
     id: 3,
-    name: "Classic Red Evening Dress",
-    price: 1200,
-    size: "L",
-    image: "https://images.unsplash.com/photo-1518831959646-742c3a14ebf7?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    color: "Rød",
-    status: 'available',
-    description: "Tidløs rød kjole med nydelig passform."
-  },
-  {
-    id: 4,
-    name: "Black Sparkle Prom Dress",
-    price: 2000,
-    size: "XS",
-    image: "https://images.unsplash.com/photo-1572804013309-59a88b7e92f1?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    color: "Svart",
-    status: 'available',
-    description: "Glitrende svart kjole som garantert vekker oppsikt."
-  },
-  {
-    id: 5,
-    name: "Golden Champagne Flow",
-    price: 1600,
-    size: "S/M",
-    image: "https://images.unsplash.com/photo-1566737236500-c8ac43014a67?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    color: "Gull",
-    status: 'available',
-    description: "Luksuriøs champagnefarget kjole med åpen rygg."
-  },
-  {
-    id: 6,
-    name: "Midnight Blue Stardust",
-    price: 1400,
-    size: "M/L",
-    image: "https://images.unsplash.com/photo-1496747611176-843222e1e57c?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    color: "Mørkeblå",
+    name: "Kommer snart",
+    price: 0,
+    size: "-",
+    image: "https://images.unsplash.com/photo-1566174053879-31528523f8ae?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
+    color: "-",
     status: 'busy',
-    availableDate: 'Ledig om 2 uker',
-    description: "Drømmende mørkeblå kjole med diskret glitter."
+    availableDate: 'Kommer snart',
+    description: "Flere kjoler legges til fortløpende."
   }
 ];
 
